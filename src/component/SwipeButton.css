@@ -1,0 +1,35 @@
+.swipeButton {
+  position: fixed;
+  display: flex;
+  bottom: 5vh;
+  margin-left: 5%;
+  width: 90%;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.swipeButton .MuiIconButton-root {
+  background-color: white;
+  box-shadow: 2px 10px 53px 0px rgba(0, 0, 0, 0.3);
+}
+.a_left {
+  padding: 2vw !important;
+  color: rgb(226, 106, 126) !important;
+}
+.a_repeat {
+  padding: 2vw !important;
+  color: rgb(240, 229, 78) !important;
+}
+.a_star {
+  padding: 2vw !important;
+  color: turquoise !important;
+}
+.a_right {
+  padding: 2vw !important;
+  color: rgb(41, 233, 16) !important;
+}
+.a_light {
+  padding: 2vw !important;
+  color: rgb(202, 19, 226) !important;
+}
